@@ -43,11 +43,28 @@ a{
         text-decoration: none;
         margin: 10px 10px;
         cursor: pointer;
-        color:black;
+        color: black;
         background-color: white;
         border-radius: 25%;
         font-size: 25px;
+
 }
+
+
+
+a:hover {
+        color:  rgb(228, 173, 183);; 
+    }
+    
+    a:active {
+        color: rgb(228, 173, 183);; 
+    }
+
+    .active {
+        color: rgb(228, 173, 183); 
+        font-weight: bold; 
+}
+
 
 
 .logo {
