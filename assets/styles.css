@@ -172,7 +172,7 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
 }
 .tabla{
        
@@ -198,9 +198,36 @@ main{
         width:550px;
 }
 
+
+
+
+
 footer{
         display: flex;
         align-items: center;
         justify-content: center;
+
+}
+
+.info4{
+        padding: 10px 10px;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       gap: 200px;
+        
+}
+
+.info4 li{
+       
+        width: 200px;
+
+}
+
+.info4 img{
+        height: 150px;
+        width: 200px;
 
 }
