@@ -31,18 +31,53 @@
                       <h2>Our products</h2>
                     </div>
                   </section>
-                  
-                  <form action="./show_data.html" method="get">
+                  <div class="formulario">
+                        <form action="./show_data.html" method="get">
 
-                        <label for="nombre">First Name</label>
-                        <input type="text" name="nombre" id="nombre">
+                                <label for="nombre">First Name</label>
+                                <input type="text" name="nombre" id="nombre">
+
+                                 <label for="apellido">Last Name</label>
+                                <input type="text" name="apellido" id="apellido">
+
+                                <label for="seleccion">Choose Meet o Zoom</label>
+                                <select name="seleccion" id="seleccion">
+                                        <option value=""></option>
+                                        <option value="meet">Meet</option>
+                                        <option value="zoom">Zoom</option>
+                                </select>
+
+                                <label for="fecha">Choose Date</label>
+                                <input type="date">
 
 
+                                <label for="pagos">Payments Options</label>
+                                
+                                <label for="cash">Cash</label>
+                                <input type="radio" id="cash" name="pagos" value="cash">
+                                <br>
+
+                                <label for="cash">Credit Card</label>
+                                <input type="radio" id="credit" name="pagos" value="credit">
+                                <br>
+                                
+                                <label for="cash">Debit Card</label>
+                                <input type="radio" id="debit" name="pagos" value="debit">
+                                <br>
+
+                                <label for="mensaje">Message(opcional)</label>
+                                <textarea cols="30" rows="5"></textarea>
+
+                                <input type="checkbox" name="tyc" value="tyc">
+                                <label for="tyc">Accept terms and Conditions</label>
 
 
-                  </form>
+                                <input type="submit" value="send">
 
 
+                         </form>
+
+                </div>
 
 
 
