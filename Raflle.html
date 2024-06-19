@@ -27,58 +27,76 @@
                 <main class="main">
                   <section>
                     <div class="titulo">
-                      <h1>Home</h1>
-                      <h2>Our products</h2>
+                      <h1>Raffle</h1>
+                      <h2>You can collaborate to hold an exhibition event and participate in raflle to win an easel</h2>
                     </div>
                   </section>
-                  <div class="formulario">
-                        <form action="./show_data.html" method="get">
+                 
+                       
+                       <div class="contform">
+                        <section>
+                          <h2>Our location is located at: </h2>
+                          <iframe class="imgmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.3582433629413!2d-118.25018485821536!3d34.03469099396213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c62d7624d229%3A0xfda8a938ca0be207!2s941%20Towne%20Ave%2C%20Los%20Angeles%2C%20CA%2090021%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1718763091494!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </section>
 
-                                <label for="nombre">First Name</label>
-                                <input type="text" name="nombre" id="nombre">
+                        <form action="./show_data.html" method="get" class="formulario">
 
-                                 <label for="apellido">Last Name</label>
-                                <input type="text" name="apellido" id="apellido">
+                                <fieldset>
+                                <label class="datos" for="nombre">First Name
+                                <input class="datos" type="text" name="nombre" id="nombre">
+                              </label>
 
-                                <label for="seleccion">Choose Meet o Zoom</label>
-                                <select name="seleccion" id="seleccion">
+                                 <label class="datos" for="apellido">Last Name
+                                <input class="datos" type="text" name="apellido" id="apellido">
+                              </label>
+
+                                <label class="datos"for="seleccion">Choose Meet o Zoom</label>
+                                <select class="datos" name="seleccion" id="seleccion">
                                         <option value=""></option>
                                         <option value="meet">Meet</option>
                                         <option value="zoom">Zoom</option>
                                 </select>
 
-                                <label for="fecha">Choose Date</label>
-                                <input type="date">
-
+                                <label class="datos" for="fecha">Choose Date
+                                <input class="datos" type="date" name="fecha" id="fecha">
+                                </label>
 
                                 <label for="pagos">Payments Options</label>
+                                <br>
+
+
                                 
-                                <label for="cash">Cash</label>
+                                <label class="pagos" for="cash">
                                 <input type="radio" id="cash" name="pagos" value="cash">
+                                Cash</label>
                                 <br>
 
-                                <label for="cash">Credit Card</label>
+
+                                <label  for="cash">
                                 <input type="radio" id="credit" name="pagos" value="credit">
+                                Credit Card</label>
                                 <br>
                                 
-                                <label for="cash">Debit Card</label>
+                                <label  for="dibitcard">
                                 <input type="radio" id="debit" name="pagos" value="debit">
+                                Debit Card</label>
                                 <br>
-
-                                <label for="mensaje">Message(opcional)</label>
-                                <textarea cols="30" rows="5"></textarea>
-
-                                <input type="checkbox" name="tyc" value="tyc">
-                                <label for="tyc">Accept terms and Conditions</label>
-
-
-                                <input type="submit" value="send">
+                              
+                                <label class="datos" for="mensaje">Message(opcional)</label>
+                                <textarea cols="30" rows="5" name="mensaje" id="mensaje"></textarea>
+                                
+                                <div class="tyc">
+                                <input  type="checkbox" name="tyc" id="tyc" value="1">
+                                <label   for="tyc" >Accept terms and Conditions</label>
 
 
+                                <input class="send" type="submit" value="send">
+                              </div>
+                       
+                            </fieldset>
                          </form>
-
-                </div>
-
+                      </div>
+           
 
 
 
